@@ -1,3 +1,92 @@
 /* This is a multi-line
 comment. Add your CSS code
 from Unit 1 - 5 below  */
+nav  {
+
+	background-color : #808080;
+}
+
+a  {
+	text-decoration: none;
+
+	background-color :#ffbf00;
+	color: white;
+	display: block;
+	padding: 35px;
+	float: left;
+}
+.clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
+
+
+
+a:hover {
+
+	background-color: #ee5f3c;
+}
+
+
+
+  h1
+  {
+  text-align: center;
+  color: rgba(2,132,130,.8);
+  }
+
+ 
+h2
+{
+  
+ text-align: center;
+ color: #ffd700; 
+  
+ }
+p {
+
+	text-align: center;
+	
+}
+
+.board
+{
+	height: 50%;
+	width: 50%; 
+	display: inline-block; 
+  }
+.card
+{
+	border: 1px solid black;
+	height: 200px;
+	width: 150px;
+border-radius: 10px;
+	background : yellow;
+	float: left;
+	margin: 8%;
+
+}
+
+
+
+/*.love {
+
+	color: #FFA500;
+} 
+*/
+
+.name {
+
+	color: #ff0000;
+}
+footer {
+	text-align: center;
+
+	background-color: #808080;
+}
+
+
