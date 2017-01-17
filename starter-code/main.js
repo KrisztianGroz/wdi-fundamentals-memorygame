@@ -10,7 +10,7 @@ var cardFour = "King";
 
  
 
-
+/*
 var element = document.getElementById('game-board');
  
  for (var i = 0; i < 4; i++) {
@@ -18,4 +18,23 @@ var element = document.getElementById('game-board');
  	divElement.className = ("card");
  element.appendChild(divElement);
   }
+
+*/
+
+
+
+function createCards () {
+ 	var element = document.getElementById('game-board');
+ 
+ for (var i = 0; i < 4; i++) {
+ 	var divElement = document.createElement('Div');
+ 	divElement.className = ("card");
+  element.appendChild(divElement);
+ }
+ }
+
+ // after ten min I found out I havent called the function :)
+
+createCards();
+
 
