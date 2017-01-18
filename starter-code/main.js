@@ -34,7 +34,7 @@ var cards = ['queen', 'queen', 'king', 'king'];
 			    // Set an attribute what we can use 
 			    cardElement.setAttribute('data-card', cards[i]);
 
-				// add a function for the click , what I have not created yet :)
+				// add a function for the click , 
 			    cardElement.addEventListener('click', isTwoCards);
 
 			 // we add the element to our board
@@ -46,6 +46,29 @@ var cards = ['queen', 'queen', 'king', 'king'];
 			
 			}
 
+			function isTwoCards() {
+			  // We fill up our Cardsin play array with the "this what is new 
+			  cardsInPlay.push(this.getAttribute('data-card'));
+			  // lets make the images visible 
+				console.log(this.getAttribute('data-card'));
+				if (this.getAttribute('data-card') === 'king') {
+					this.innerHTML = "<img src='http://i.imgur.com/Ou79B5C.png'>"; // If the Data card is King , this image should be too :)
+				} else {
+					this.innerHTML = "<img src='http://i.imgur.com/Xf3ubmM.png'>"; // God bless the Queen :)
+				}
+			           // we have a pair or no ? 
+			  if (cardsInPlay.length === 2) {
+			  
+
+			  // Lets start our function to check is the same or not
+
+			    isMatch(cardsInPlay);   // is match not created yet
+
+
+			    //  Lets Start again :) 
+			    cardsInPlay = [];
+			  }
+			}
 
 
 
@@ -67,7 +90,7 @@ var cards = ['queen', 'queen', 'king', 'king'];
 /*
 var element = document.getElementById('game-board');
  
- for (var i = 0; i < 12; i++) {
+ for (var i = 0; i < 4; i++) {
  var divElement = document.createElement('Div');
  	divElement.className = ("card");
  element.appendChild(divElement);
@@ -75,7 +98,7 @@ var element = document.getElementById('game-board');
 
 */
 
-
+/*
 
 function createCards () {
  	var element = document.getElementById('game-board');
@@ -90,5 +113,6 @@ function createCards () {
  // after ten min I found out I havent called the function yet :)
 
 createCards();
+*/
 
 
