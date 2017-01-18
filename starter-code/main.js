@@ -79,12 +79,18 @@ var board = document.getElementById('game-board');
 
 			// lets make our last function 
 
+			
+
 			function isMatch(cards) {
 			 
 
 
 			  if (cards[0] === cards[1]) {
-			    alert("You found a match! Whao you are Good"); // We let them know 
+			    alert("You found a match! Whao you are Good"); // We let them know If the Data card is King , this image should be too :)
+			    //this.innerHTML = " ";                        
+			    //cardsInPlay = [];
+
+
 			  } else {
 			    alert("Sorry, try again. Use the Force please");  // We give a sorry message 
 			
