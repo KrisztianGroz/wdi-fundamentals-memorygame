@@ -73,6 +73,27 @@ var cards = ['queen', 'queen', 'king', 'king'];
 
 
 
+			// lets make our last function 
+
+			function isMatch(cards) {
+			 
+
+
+			  if (cards[0] === cards[1]) {
+			    alert("You found a match! Whao you are Good"); // We let them know 
+			  } else {
+			    alert("Sorry, try again. Use the Force please");  // We give a sorry message 
+			
+			   }
+			}
+			 
+			
+			// maybe its working 
+
+
+
+
+
 
 
 
