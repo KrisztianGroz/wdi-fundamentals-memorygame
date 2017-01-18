@@ -8,6 +8,10 @@ var cardFour = "King";
 // replace them with an Array what we learned ;
 
 var cards = ['queen', 'queen', 'king', 'king'];
+// FORGOT TO GET THE ELEMENT
+var board = document.getElementById('game-board');
+
+
 
  var cardsInPlay =[] ;
 
@@ -89,6 +93,10 @@ var cards = ['queen', 'queen', 'king', 'king'];
 			 
 			
 			// maybe its working 
+
+createBoard();
+
+// After call the function is working better ;)
 
 
 
