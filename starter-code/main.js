@@ -1,9 +1,14 @@
 console.log("JS file is connected to HTML! Woo!")
-
+/*  comment out the old cards ;)
 var cardOne = "queen";
 var cardTwo = "queen";
 var cardThree = "King";
 var cardFour = "King";
+*/
+// replace them with an Array what we learned ;
+
+var cards = ['queen', 'queen', 'king', 'king'];
+
 
 
  /*if (cardOne === cardTwo) {window.alert("You found a mach");} else window.alert("Ohh Boy try it again");*/
@@ -33,7 +38,7 @@ function createCards () {
  }
  }
 
- // after ten min I found out I havent called the function :)
+ // after ten min I found out I havent called the function yet :)
 
 createCards();
 
