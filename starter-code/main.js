@@ -85,8 +85,8 @@ var board = document.getElementById('game-board');
 			 
 
 
-			  if (cards[0] === cards[1]) {
-			    alert("You found a match! Whao you are Good"); // We let them know If the Data card is King , this image should be too :)
+			  if (cardsInPlay[0] === cardsInPlay[1]) {
+			    alert("You found a match! Whao you are Good"); // We let them know 
 			    //this.innerHTML = " ";                        
 			    //cardsInPlay = [];
 
